@@ -1,26 +1,29 @@
 import React from 'react';
 import './Navbar.css';
 //Importing Link to enable client-side navigation without reloading the page
-import {Link} from 'react-router-dom'; 
+//import {Link} from 'react-router-dom'; 
+
+//Importing NavLink to enable navigation with automatic active link styling
+import {NavLink} from 'react-router-dom';
 
 export default function Navbar(){
     return(
         <nav className='navbar'>
             <ul className='nav-links'>
                 <li>
-                <Link to ='/'>Home</Link>
+                <NavLink to ='/' className={({isActive}) => isActive ? 'active' :''}>Home</NavLink>
                 </li>
                 <li>
-                <Link to ='/about'>About</Link>
+                <NavLink to ='/about' className={({isActive}) => isActive ? 'active' :''}>About</NavLink>
                 </li>
                 <li>
-                <Link to ='/projects'>Projects</Link>
+                <NavLink to ='/projects' className={({isActive}) => isActive ? 'active' :''}>Projects</NavLink>
                 </li>
                 <li>
-                <Link to ='/skills'>Skills</Link>
+                <NavLink to ='/skills' className={({isActive}) => isActive ? 'active' :''}>Skills</NavLink>
                 </li>
                 <li>
-                <Link to ='/contact'>Contact</Link>
+                <NavLink to ='/contact' className={({isActive}) => isActive ? 'active' :''}>Contact</NavLink>
                 </li>
             </ul>
     
