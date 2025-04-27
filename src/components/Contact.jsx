@@ -29,15 +29,6 @@ export default function Contact() {
           >
             GitHub
           </a>
-          <a
-            href="/Kavya_Bojja_Java_FSD.pdf"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition"
-          >
-            Download Resume
-          </a>
         </div>
       </div>
     );

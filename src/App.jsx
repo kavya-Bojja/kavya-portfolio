@@ -10,6 +10,7 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Experience from './components/Experience';
 import Layout from './components/Layout';
 
 function App() {
@@ -43,6 +44,10 @@ function App() {
          {/* Education Section */}
          <section id="education" className="min-h-screen py-16 px-6 bg-sky-50 shadow-md rounded-2xl my-6 mx-auto max-w-5xl">
           <Education />
+        </section>
+        {/*Experience Section */}
+        <section id="experience" className ="min-h-screen py-16 px-6 bg-blue shadow-md rounded-2xl my-6 mx-auto max-w-5xl">
+          <Experience/>
         </section>
 
         {/* Skills Section */}

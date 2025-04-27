@@ -47,6 +47,11 @@ export default function Navbar(){
           </Link>
         </li>
         <li>
+          <Link to="experience" smooth={true} duration={500} offset={-70} spy={true} activeClass="active">
+            Experience
+          </Link>
+        </li>
+        <li>
           <Link to="skills" smooth={true} duration={500} offset={-70} spy={true} activeClass="active">
             Skills
           </Link>

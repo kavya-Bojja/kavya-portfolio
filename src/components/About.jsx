@@ -69,7 +69,7 @@ export default function About(){
   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 place-items-center">
     
     {[
-      { icon: "dance.png", label: "Dancing 💃" },
+      // { icon: "dance.png", label: "Dancing 💃" },
       { icon: "tech.png", label: "Learning New Tech 🧠" },
       { icon: "project.png", label: "Building Projects 💻" },
       { icon: "collaboration.png", label: "Collaborating 🤝" },
@@ -77,7 +77,7 @@ export default function About(){
       { icon: "yoga.png", label: "Yoga & Meditation 🧘‍♀️" },
       { icon: "coffee.png", label: "Coffee & Desserts ☕🍰" },
       { icon: "travel.png", label: "Traveling 🧳" },
-      { icon: "people.png", label: "My People ❤️" },
+
     ].map((item, idx) => (
       <div
         key={idx}
